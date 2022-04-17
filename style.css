@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 40px;
+}
+.filtroMenu {
+    color: white;
+    display: flex;
+    background-color: #29B1DD;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+}
+.filtroMenu option {
+    text-transform: capitalize;
+}
+.cardSection {
+    background-color: #DDDDDD;
+    min-height: calc(100vh - 50px - 40px);
+}
+.cardContainer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content:space-evenly;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.card {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 2rem;
+    box-shadow: 5px 5px 5px 0px #a0a0a0;
+    display: flex;
+    gap: 5px;
+}
+.cardTitle {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+}
+.hide {
+    display: none;
+}
